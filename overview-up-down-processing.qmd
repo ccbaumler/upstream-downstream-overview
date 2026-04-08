@@ -1,0 +1,53 @@
+---
+title: "Overview of Upstream and Downstream Processing"
+subtitle: "How environment selects"
+format: 
+  revealjs:
+    theme: custom-light.scss
+    preview-links: false
+    incremental: true
+    chalkboard: 
+      buttons: false
+    auto-animate-easing: ease-in-out
+    auto-animate-unmatched: true
+    auto-animate-duration: 0.8
+    menu:
+      side: right
+      width: half
+from: markdown+emoji
+author: 
+  - name: Colton Baumler
+    orcid: 0000-0002-5926-7792
+    email: ccbaumler@ucdavis.edu
+    affiliations: University of California, Davis
+date: last-modified
+date-format: "dddd, [the] D[<sup style='font-size:65%;font-style:italic;'>th</sup>] [of] MMMM, YYYY"
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+# Context for learners
+## here is my assumptions for the learners
+
+the connections to realworld applications and why this context applies to the 
+
+
+
+# Overview and Learning Objectives
+
+1. 
+
+# think
+
+> Everything is everywhere, but, the environment selects.
+
+[In one sentance, explain what this means to you.]{.fragment}
+
+
+# As peers here is what I would assume we covered and where I would go afterward
+
+# Appendix
+
+# Glossary
