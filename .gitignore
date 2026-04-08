@@ -1,2 +1,11 @@
 *.html
 overview-up-down-processing_files/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+/_site/
+*.html
+*_files
