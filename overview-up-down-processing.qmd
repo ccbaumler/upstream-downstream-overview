@@ -1,9 +1,10 @@
 ---
-title: "Overview of Upstream and Downstream Processing"
-subtitle: "How environment selects"
+title: "Bioprocessing"
+subtitle: "An overview of Upstream and Downstream Processing"
 format: 
   revealjs:
     theme: custom-light.scss
+    css: [timer.css]
     preview-links: false
     incremental: true
     chalkboard: 
@@ -28,25 +29,149 @@ execute:
   message: false
 ---
 
-# Context for learners
-## here is my assumptions for the learners
+# Learning Objectives
 
-the connections to realworld applications and why this context applies to the 
+```{r}
+#| echo: false
+library(countdown)
+```
+
+1. Modeling the overall process
+2. Define Bioprocessing
+3. Understand the variety of biological systems and products
+4. Critically evaluate process requirements
+
+# Modeling the Overall Process
+
+## In a single word, write a theme for each quote?
+
+### Modeling the Overall Process
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 1, seconds = 0, warn_when = 15, 
+                     right = "0%", top = "10%",
+                     blink_colon = TRUE,
+                     play_sound = "audio/smb_coin.wav",
+                     id = "special_timer")
+```
+
+::: {.fragment}
+
+:::: {.columns}
+
+::: {.column width="45%"}
+#### Everything is everywhere, but the environment selects.
+
+- Baas Becking
+  - Plant physiologist
+    - *Geobiography*
+- ***Growth***
+
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="47.5%" style="border-left: 2px solid grey; padding-left: 1%;"}
+#### Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+
+- Antoine de Saint-Exupéry
+  - Writer and Aviator
+    - *Wind, Sand, and Stars*
+- ***Refinement***
+
+:::
+
+::::
+
+:::
+
+## Growth and Refinement define Bioprocessing
+
+### Modeling the Overall Process
+
+![Painted by David Goodsell. The composition of macromolecules is depicted to scale, with an effort to show the impact of native concentrations of macromolecules on the environment; Histone Like Proteins in Gold, white strands are mRNA, purple are ribosomes, and enzymes are in blue.](./images/mage-was-painted-by-David-Goodsell-downloaded-from.jpeg)
+
+## Before bioprocesses, what are processes?
+
+### Modeling the Overall Process
+
+<style>
+/* The animated oval and line */
+.bio-overlay {
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 50px;
+  padding: 0.2em 0.5em; /* Starting padding */
+  transition: all 0.8s ease-in-out;
+  background: linear-gradient(transparent 48%, red 48%, red 52%, transparent 52%) no-repeat;
+  background-size: 0% 100%; /* Line starts hidden */
+}
+
+/* When the fragment triggers, the overlay shrinks and the line draws */
+.fragment.visible .bio-overlay {
+  padding: 0.1em 0.3em; 
+  background-size: 100% 100%;
+}
+</style>
+
+::: {.center-xy}
+::: {.r-stack}
+
+[Bioprocess]{style="font-size: 2em; opacity: 1;"}
+
+::: {.fragment}
+[ [Bio]{.bio-overlay}process ]{style="font-size: 3em; background: white;"}
+:::
+
+:::
+:::
+
+# Defining Bioprocessing
+
+::: notes
+Applications in pharma, science, biofuel, vaccine, and food products
+
+This is how we make vitamins, insulin, biofuel, growth hormones, anitbiotics
+:::
+
+## What is Bioprocessing? {auto-animate="true"}
+
+### Defining Bioprocessing
+
+::: {style="font-size: 0.75em; margin-top: 2em;"}
+> A technique to use [biological resources]{data-id="res" style="color: red;"} to create and isolate [products]{data-id="pro" style="color: red;"}.
+:::
+
+## What is Bioprocessing? {auto-animate="true"}
+
+### Defining Bioprocessing
+
+::: {style="font-size: 0.75em; opacity: 0.3;"}
+> A technique to use [biological resources]{data-id="res" style="color: red;"} to create and isolate [products]{data-id="pro" style="color: red;"}.
+:::
+
+
+### Key Components:
+
+::: {.nonincremental}
+
+* [Biological Resources]{data-id="res" style="color: red; font-weight: bold;"}
+    * [Bacterial, mammalian, or plant cells]{.fragment}
+    * [Viruses]{.fragment}
+    * [Cell-free systems]{.fragment}
+* [Products]{data-id="pro" style="color: red; font-weight: bold;"}
+    * [Antibodies, proteins, and metabolites]{.fragment}
+    * [Applications in pharma, science, biofuel, vaccine, and food products]{.fragment}
+
+:::
+
+# Understand the variety of biological systems and products
 
 
 
-# Overview and Learning Objectives
-
-1. 
-
-# think
-
-> Everything is everywhere, but, the environment selects.
-
-[In one sentance, explain what this means to you.]{.fragment}
-
-
-# As peers here is what I would assume we covered and where I would go afterward
+# Critically evaluate process requirements
 
 # Appendix
 

@@ -9,3 +9,5 @@ overview-up-down-processing_files/
 /_site/
 *.html
 *_files
+
+**/*.quarto_ipynb
