@@ -65,7 +65,7 @@ countdown::countdown(minutes = 1, seconds = 0, warn_when = 15,
 
 - Baas Becking
   - Plant physiologist
-    - *Geobiography*
+    - *Geobiology*
 - ***Growth***
 
 :::
